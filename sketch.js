@@ -36,6 +36,6 @@ console.log(speed);
   if(deformation < 100){
     car.shapeColor = color("red")
   }
-
+  
   drawSprites();
 } 
