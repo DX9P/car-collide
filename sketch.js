@@ -26,15 +26,15 @@ console.log(speed);
     car.velocityX = 0;
   var deformation = ((0.5 * weight * speed * speed)/22500);
   if(deformation < 180 && deformation > 150)
-    car.shapeColor = color("red");
+    car.shapeColor = color("yellow");
   }
   if(deformation < 150) { 
-    car.shapeColor = color("yellow");
+    car.shapeColor = color("green");
   }
  
   
   if(deformation < 100){
-    car.shapeColor = color("green")
+    car.shapeColor = color("red")
   }
 
   drawSprites();
